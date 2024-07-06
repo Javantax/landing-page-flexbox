@@ -4,12 +4,14 @@
         <meta charset="utf-8">
         <title>Landing Page</title>
         <link rel="stylesheet" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     </head>
-        <div class="nav">
-            <ul class="logo">
-                <li>Header Logo</li>
-            </ul>
-            <ul class="side-links">
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                Header Logo
+            </div>
+            <ul class="nav-links">
                 <li><a href="#">link one</a></li>
                 <li><a href="#">link one</a></li>
                 <li><a href="#">link three</a></li>
@@ -17,29 +19,41 @@
         </div>
 
         <div class="section-one">
-            <h1 class="main-heading">This website is awesome</h1>
-            <p class="main-subtextaa">The website has some subtext that goes under the main title. It's smaller in font and color contrast is lower</p>
-            <button class="main-sign-up-button">
-                Sign up
-            </button>
+            <div class="main-all-text">
+                <h1 class="main-heading">This website is<br> awesome</h1>
+                <p class="main-subtext">The website has some subtext that goes under the main title. It's smaller in font and color is lower contrast</p>
+                <button class="main-sign-up-button">
+                    Sign up
+                </button>
+            </div>
 
-            <img href="This is place holder for the image">
+            <img class="main-image" src="./images/gray.jpg" alt="Placeholder">
+
         </div>
 
         <div class="section-two">
             <h2 class="secondary-heading">Some random information.</h2>
             <div class="image-box-container">
-                <div class="image-boxes"></div>
-                <div class="image-boxes"></div>
-                <div class="image-boxes"></div>
-                <div class="image-boxes"></div>
-                <!-- Add the text below each image box later-->
+                <div class="img-box-with-text">
+                    <div class="image-boxes"></div><p class="below-img-text">This is some text with some information under an illustration or image.</p>
+                </div>
+                <div class="img-box-with-text">
+                    <div class="image-boxes"></div><p class="below-img-text">This is some text with some information under an illustration or image.</p>
+                </div>
+                <div class="img-box-with-text">
+                    <div class="image-boxes"></div><p class="below-img-text">This is some text with some information under an illustration or image.</p>
+                </div>
+                <div class="img-box-with-text">
+                    <div class="image-boxes"></div><p class="below-img-text">This is some text with some information under an illustration or image.</p>
+                </div>
             </div>
         </div>
 
         <div class="section-three">
-            <p class="quote">This is an inspired quite maybe, or a testimonal fromo a customer. Maybe it's just filling up space or maybe what people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p class="author">-Thor, God of Thunder</p>
+            <div class="quote-container">
+                <p class="quote">This is an inspired quite maybe, or a testimonial from customer. Maybe it's just filling up space or maybe what people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <p class="author">-Thor, God of Thunder</p>
+            </div>
         </div>
 
         <div class="section-four">
@@ -53,7 +67,5 @@
         <div class="footer">
             Copyright The Odin Project 2021
         </div>
-    <body>
-        
     </body>
 </html>
