@@ -50,6 +50,44 @@ p {
     color: #F9FAF8;
 }
 
+/** SECTION ONE **/
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 108px;
+}
+
+
+.main-all-text {
+    width: 415px;
+    padding-right: 28px;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.main-subtext {
+    font-size: 17px;
+    font-weight: 400;
+    color: #E5E7EB;
+    text-wrap: wrap;
+}
+
+.main-sign-up-button {
+    margin-top: 14px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 7px 22px 7px 22px;
+    font-weight: 600;
+    border: none;
+}
+
 
 
 
