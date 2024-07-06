@@ -13,11 +13,6 @@ This project is a practice landing page using flexbox. It includes a structured 
 
 - **Commit History**: Maintained a proper commit history to track changes and progress throughout the development process.
 
-## Technologies Used
-
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the content and layout.
-
 ## How to Run
 
 1. Clone the repository.
