@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: sans-serif, Roboto;
     margin: 0;
     //color: #F9FAF8;
 }
@@ -184,6 +184,10 @@ p {
     border: #E5E7EB solid 2px;
     padding: 4px 22px 4px 22px;
     border-radius: 6px;
+}
+
+.call-to-action-heading {
+    font-weight: 700;
 }
 
 .call-to-action-text {
