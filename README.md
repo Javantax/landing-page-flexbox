@@ -1,1 +1,2 @@
-# landing-page-practice
+Landing Page Template
+
